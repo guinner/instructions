@@ -10,4 +10,7 @@
 5. 选择Network tab，刷新网页再查找`.m3u8`扩展名的文件，复制出以`.m3u8`结尾的链接备用（通常是第一个，下面用URL表示）
 6. 将ffmpeg放到个人文件夹（在Finder的边栏里显示的是“🏠用户名”，如果没有可以在Finder的偏好设置里选择将🏠打勾）
 7. 在console（启动台->其他->终端）里执行下面的命令，替换URL和filename即可，且filename不识别中文
-`./ffmpeg  -i "URL" -c copy -bsf:a aac_adtstoasc "filename.mp4"` 如果提示Permission denied，请执行 `chmod +x ffmpeg`后再试
+```sh
+./ffmpeg  -i "URL" -c copy -bsf:a aac_adtstoasc "filename.mp4"
+``` 
+如果提示Permission denied，请执行 `chmod +x ffmpeg`后再试
