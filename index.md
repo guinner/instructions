@@ -4,7 +4,7 @@
 
 ![](screen1.png)
 
-2. 右侧出现调试窗口后，从选中的div标签向上找，找到iframe标签，这里有两个iframe，选src=//fast.wistia.net开头的（可以用`cmd+F`来查找）
+2. 界面中出现调试窗口后，按cmd+F打开查找窗口，输入iframe，找到iframe标签，这里有两个 iframe，选src=//fast.wistia.net开头的（如果调试窗口中没有iframe标签和后面的src链接，需要点击视频右下角的video trouble，切换另一个视频链接（不是youtube），重复本步骤）
 3. 右键点击src后面的链接，open in new tab
 4. 在新的网页里也打开调试窗口，可以按`cmd+option+i`
 5. 选择Network tab，刷新网页再查找`.m3u8`扩展名的文件，复制出以`.m3u8`结尾的链接备用（通常是第一个，下面用URL表示）
