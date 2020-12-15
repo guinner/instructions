@@ -12,3 +12,9 @@
 ./ffmpeg  -i "URL" -c copy -bsf:a aac_adtstoasc "filename.mp4"
 ```
 如果提示Permission denied，请执行 `chmod +x ffmpeg`后再试
+
+
+## mov转mp4的方法
+```sh
+./ffmpeg -i input.mov -c:v libx264 -c:a aac -vf format=yuv420p -movflags +faststart output.mp4
+```
