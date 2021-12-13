@@ -1,4 +1,4 @@
-## 下载mysteryscience视频的方法
+## 下载视频的方法
 
 1. 打开网页，在视频处点鼠标右键，选择检查元素（Inspect）
 ![](screen1.png)
